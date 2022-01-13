@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Register form</legend>
+
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Name">
+                <br>
+            <label for="surname">Surname</label>
+            <input type="text" name="Surname" placeholder="Surname">
+                <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Email">
+                <br>
+            <label for="gender">Gender</label>
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" value="Male">
+            <label for="">Female</label>
+            <input type="radio" name="Gender" value="Female">
+                <br>
+            <label for="pic">Picture</label>
+            <input type="file" name="pic">
+                <br>
+            <label>Country</label>
+                <select>
+                    <option>Germany</option>
+                    <option>Spain</option>
+                    <option>France</option>
+                </select>
+                <br>
+                <label for="lang">Preferred languages</label>
+            <select multiple="multiple" name="lang"> 
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JS</option>
+                <option>React</option>
+                <option>Wordpress</option>
+            </select>
+            <label>(To choose more than one use cmd key)</label>
+                <br>
+            <label for="activ">Fieled of activity</label>
+            <input type="checkbox" name="it">
+            <label for="it">IT</label>
+            <input type="checkbox" name="design">
+            <label for="design">Design</label>
+            <input type="checkbox" name="other">
+            <label for="other">Other</label>
+                <br>
+            <input type="button" value="Send">
+            <input type="reset" value="Cancel">
+        </fieldset>
+    </form>
+</body>
+
+</html>
